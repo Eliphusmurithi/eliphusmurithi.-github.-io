@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Elipus Murithi | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <h2 class="logo">Elipus</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="home">
+        <h1>Hello, I'm <span>Elipus Murithi</span></h1>
+        <p>B.Ed Science (Physics & Computer Studies) Student</p>
+        <button onclick="welcome()">Say Hi!</button>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am passionate about Physics, Programming, and Technology.
+            I enjoy solving problems and building real-world solutions.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>C Programming</li>
+            <li>HTML & CSS</li>
+            <li>JavaScript Basics</li>
+            <li>Physics & Mathematics</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>1. Simple C Programs</p>
+        <p>2. Aviator Game Simulation (C++)</p>
+        <p>3. Student Notes Website (Coming Soon)</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: elipus@example.com</p>
+        <p>Phone: +254-7XXXXXXXX</p>
+        <p>WhatsApp: +254-7XXXXXXXX</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Elipus Murithi. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
