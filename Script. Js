@@ -1,7 +1,38 @@
-function welcome(){
-alert("Hello! Welcome to Eliphus Murithi's Portfolio Website.");
+function contact(){
+
+alert("Thank you for visiting my portfolio. You can contact me via email or phone.");
+
 }
 
-function contact(){
-alert("Thank you for visiting! You can contact me via email or phone.");
+var text = ["Physics Student","Programmer","Future Software Developer"];
+
+var count = 0;
+
+var index = 0;
+
+var currentText = "";
+
+var letter = "";
+
+function type(){
+
+if(count === text.length){
+count = 0;
 }
+
+currentText = text[count];
+
+letter = currentText.slice(0, ++index);
+
+document.getElementById("typing").textContent = letter;
+
+if(letter.length === currentText.length){
+count++;
+index = 0;
+}
+
+setTimeout(type,120);
+
+}
+
+type();
