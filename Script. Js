@@ -1,3 +1,7 @@
-function welcome() {
-    alert("Hello! Thanks for visiting my website 😊");
+function welcome(){
+alert("Hello! Welcome to Eliphus Murithi's Portfolio Website.");
+}
+
+function contact(){
+alert("Thank you for visiting! You can contact me via email or phone.");
 }
